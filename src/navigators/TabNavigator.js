@@ -22,6 +22,7 @@ const TabNavigator = (routeConfigs, config = {}) => {
     lazy,
     removeClippedSubviews,
     swipeEnabled,
+    onIndexChange,
     animationEnabled,
     configureTransition,
     initialLayout,
@@ -41,6 +42,7 @@ const TabNavigator = (routeConfigs, config = {}) => {
       swipeEnabled={swipeEnabled}
       animationEnabled={animationEnabled}
       configureTransition={configureTransition}
+      onIndexChange={onIndexChange}
       initialLayout={initialLayout}
     />
   ));
