@@ -134,6 +134,7 @@ class TabView extends React.PureComponent {
       tabBarPosition,
       animationEnabled,
       configureTransition,
+      canJumpToTab,
       initialLayout,
       screenProps,
     } = this.props;
@@ -184,6 +185,7 @@ class TabView extends React.PureComponent {
       renderHeader,
       renderFooter,
       renderScene: this._renderScene,
+      canJumpToTab: canJumpToTab,
       onIndexChange: this._handlePageChanged,
       navigationState: this.props.navigation.state,
       screenProps: this.props.screenProps,
