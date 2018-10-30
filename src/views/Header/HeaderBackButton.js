@@ -105,9 +105,9 @@ const styles = StyleSheet.create({
     Platform.OS === 'ios'
       ? {
           height: 21,
-          width: 13,
-          marginLeft: 9,
-          marginRight: 22,
+          width: 21,
+          marginLeft: 5,
+          marginRight: 18,
           marginVertical: 12,
           resizeMode: 'contain',
           transform: [{ scaleX: I18nManager.isRTL ? -1 : 1 }],
