@@ -38,6 +38,7 @@ class HeaderBackButton extends React.PureComponent {
       onPress,
       pressColorAndroid,
       width,
+      iconStyle,
       title,
       titleStyle,
       tintColor,
@@ -67,6 +68,7 @@ class HeaderBackButton extends React.PureComponent {
           <Image
             style={[
               styles.icon,
+              iconStyle && iconStyle,
               !!title && styles.iconWithTitle,
               !!tintColor && { tintColor },
             ]}
